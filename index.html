@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <form enctype="multipart/form-data" action="/upload" method="POST">
+        <input type="file" name="photo">
+        <input type="submit" value="Upload">
+    </form>
+    <hr>
+    <h2>Uploaded Photos</h2>
+    <div id="photos">
+        <!-- Display uploaded photos here -->
+    </div>
+</body>
+</html>
+
